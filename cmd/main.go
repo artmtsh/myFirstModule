@@ -1,9 +1,9 @@
 package main
 
-import contain "MY_FIRST_MODULE/pkg"
+import contain "github.com/artmtsh/myFirstModule/pkg"
 
 func main() {
-	filePath := "/Users/artmtsh/Desktop/GOlang/Lets-Go-Programming/Go_project_3_2/text.txt"
+	filePath := "text.txt"
 	searchString := "в файле. В качестве"
 	contains, err := contain.Contains(filePath, searchString)
 	if err != nil {
